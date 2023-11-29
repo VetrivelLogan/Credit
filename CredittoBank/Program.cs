@@ -11,7 +11,7 @@ namespace CredittoBank
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter credit card number: ");
+            Console.WriteLine("Enter credit card Number: ");
             string creditCardNumber = Console.ReadLine();
 
             Console.WriteLine("Enter expiration date (MM/YY): ");
@@ -50,7 +50,7 @@ namespace CredittoBank
             // Validate credit card number using the Luhn algorithm
             if (!IsCreditCardNumberValid(creditCardNumber))
             {
-                Console.WriteLine("Invalid credit card number.");
+                Console.WriteLine("Invalid credit card Number.");
                 return false;
             }
 
